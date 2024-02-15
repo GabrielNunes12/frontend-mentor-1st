@@ -1,0 +1,66 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif, 'Inter-Bold';
+    background-color:hsl(0, 0%, 12%);
+    color: #333;
+    font-size: 16px;
+    padding-top: 80px;
+}
+
+#container {
+  background-color: hsl(0, 0%, 20%);
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#header > img {
+  border-radius: 65%;
+}
+#header {
+  color: white;
+  font-size: 1.5rem;
+}
+#location{
+  color: hsl(75, 94%, 57%)
+}
+#about-me {
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#space {
+  margin-left: 1.3em;
+}
+#social-networks > ul > li {
+  list-style-type: none;
+  margin-top: 20px;
+  border: 1px solid hsl(0, 0%, 12%);
+  border-radius: 20px;
+  padding: 10px;
+  background-color: hsl(0, 0%, 20%);
+}
+#social-networks > ul > li > a {
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+  display: flex;
+  font-family: 'Inter-Bold';
+}
+
+#social-networks > ul > li:hover {
+  background-color: rgb(239, 219, 0);
+  color:black !important;
+}
+
+#social-networks > ul > li > a:hover {
+  background-color: rgb(239, 219, 0);
+  color:black !important;
+}
