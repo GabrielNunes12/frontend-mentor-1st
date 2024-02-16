@@ -64,3 +64,7 @@ body {
   background-color: rgb(239, 219, 0);
   color:black !important;
 }
+
+#social-networks > ul {
+  margin-left: -20px;
+}
